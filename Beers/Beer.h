@@ -15,7 +15,7 @@
     
     NSString *name;
     NSString *color;
-    NSUInteger alcohol;
+    NSUInteger grade;
 
     
 }
