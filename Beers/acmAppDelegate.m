@@ -7,6 +7,7 @@
 //
 
 #import "acmAppDelegate.h"
+#import "Beer.h"
 
 @implementation acmAppDelegate
 
@@ -16,6 +17,19 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    //declaro la clase Beer y le mando un mesaje de tipo alloc y el init para instanciarlo
+    Beer *mahou = [[Beer alloc] init];
+    Beer *cruzcampo = [Beer new]; //bulling
+    Beer *estrellaDamm = [[Beer alloc] init];
+    
+    //se envia un mensaje al objeto mahou
+    [mahou printBeerInfo];
+    
+    //se envia un mensaje al objeto mahou
+    [mahou printBeerInfoWithHeader:@"CABECERA" andFooter:@"PIE" andNumberOfEmojis:10];
+    
+    
     return YES;
 }
 

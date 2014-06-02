@@ -19,6 +19,7 @@
 		C3F16DD9193CD007009AF8D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DC1193CD007009AF8D0 /* UIKit.framework */; };
 		C3F16DE1193CD007009AF8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F16DDF193CD007009AF8D0 /* InfoPlist.strings */; };
 		C3F16DE3193CD007009AF8D0 /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F16DE2193CD007009AF8D0 /* BeersTests.m */; };
+		C3F16DEE193CD212009AF8D0 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F16DED193CD212009AF8D0 /* Beer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C3F16DDE193CD007009AF8D0 /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		C3F16DE0193CD007009AF8D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3F16DE2193CD007009AF8D0 /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
+		C3F16DEC193CD212009AF8D0 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		C3F16DED193CD212009AF8D0 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				C3F16DCD193CD007009AF8D0 /* acmAppDelegate.m */,
 				C3F16DCF193CD007009AF8D0 /* Images.xcassets */,
 				C3F16DC4193CD007009AF8D0 /* Supporting Files */,
+				C3F16DEC193CD212009AF8D0 /* Beer.h */,
+				C3F16DED193CD212009AF8D0 /* Beer.m */,
 			);
 			path = Beers;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F16DEE193CD212009AF8D0 /* Beer.m in Sources */,
 				C3F16DCE193CD007009AF8D0 /* acmAppDelegate.m in Sources */,
 				C3F16DCA193CD007009AF8D0 /* main.m in Sources */,
 			);
