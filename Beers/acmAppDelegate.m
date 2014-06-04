@@ -8,26 +8,131 @@
 
 #import "acmAppDelegate.h"
 #import "Beer.h"
+#import "person.h"
 
 @implementation acmAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    /*se comenta por el ejemplo del storyboard
+     
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
+*/
     //declaro la clase Beer y le mando un mesaje de tipo alloc y el init para instanciarlo
     Beer *mahou = [[Beer alloc] init];
     Beer *cruzcampo = [Beer new]; //bulling
     Beer *estrellaDamm = [[Beer alloc] init];
+    Beer *coronita = [[Beer alloc] init];
+    
+    /*mahou->name=@"Mahou";
+    cruzcampo->name=@"Cruzcampo";
+    estrellaDamm->name=@"Estrella Damm";
+    coronita->name=@"Coronita";*/
+    
+    [mahou setName:@"Mahou"];
+    [cruzcampo setName:@"Cruzcampo"];
+    [estrellaDamm setName:@"Estrella Damm"];
+    [coronita setName:@"Coronita"];
+    
+    [mahou setColor:@"Red"];
+    [cruzcampo setColor:@"Rubia"];
+    [estrellaDamm setColor:@"Mas rubia"];
+    [coronita setColor:@"Clara"];
+    
+    [mahou setGrade:4];
+    [cruzcampo setGrade:5];
+    [estrellaDamm setGrade:6];
+    [coronita setGrade:7];
+
+    //se añadio como mejora al lenguaje
+    //invoca el metodo con el "."
+    mahou.name = @" nueva mahou";
+    //estas dos linea son iguales
+    [mahou setName:@"Mahou"];
+    //importante: no se pueden llamar a otros métodos con el ".", solo a los setters y getters
+    //los metodos se deben llamar setXXXX y getXXXX
+    
+    
+    
     
     //se envia un mensaje al objeto mahou
     [mahou printBeerInfo];
     
+    [mahou printBeerInfoWithHeader:@"------"];
+    [mahou printBeerInfoWithHeader:@"------" andFooter:@"------"];
+    [mahou printBeerInfoWithHeader:@"------" andFooter:@"------" andNumberOfEmojis:10];
+    
+    
+    
+    // [mahou printBeerInfoWithHeader:[@"------" andFooter:@""];
+      
+    
     //se envia un mensaje al objeto mahou
     [mahou printBeerInfoWithHeader:@"CABECERA" andFooter:@"PIE" andNumberOfEmojis:10];
+    
+    
+    
+    /* ----person-------   */
+    Person *diego = [[Person alloc] init];
+    //son lo mismo
+    diego.name = @"Diego";
+    [diego setName:@"Diego"];
+    
+    //son lo mismo
+    diego.address = @"calle blas";
+    [diego setAddress:@"calle blas"];
+    
+    diego.age = 30;
+    [diego setAge:30];
+    
+    //sintaxis normal
+    Person *g = [[Person alloc] init];
+    
+    //ejemplo metodos de conveniencia
+    Person *k = [Person personWithName:@"pepe"];
+    
+    //el nil hace falta como valor centinela, por si no peta
+    NSArray *pList = [NSArray arrayWithObjects:g, k, nil];
+    
+    //otra forma de crearse un array
+    NSArray *p2List = @[g, k];
+    
+    /*
+     no se puede redimensionar un NSArray
+     Person *h = [Person personWithName:@"hhhh"];
+    p2List.a
+    */
+    
+    for(Person *pe in pList)
+    {
+        
+        NSLog(@"%@", pe.name);
+        
+    }
+    
+
+    
+    //otra forma de crearse un array mutable
+    NSMutableArray *partyList = [NSMutableArray arrayWithObjects:g,k, nil];
+    //lo mismo
+    partyList = [NSMutableArray arrayWithArray:@[g,k]];
+    for(int i=0; i<100; i++)
+    {
+        NSString *s = [NSString stringWithFormat:@"Persona %d",i];
+        Person *pi = [Person personWithName:s];
+        [partyList addObject:pi];
+                     
+    }
+    
+    
+    
+    
+    //p2MutableList
+    
+    
     
     
     return YES;
