@@ -14,8 +14,13 @@
 		C3ADC745193E268200BAD2E7 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC744193E268200BAD2E7 /* AlphaViewController.m */; };
 		C3ADC749193E2B7E00BAD2E7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC748193E2B7E00BAD2E7 /* Storyboard.storyboard */; };
 		C3ADC74D193E428500BAD2E7 /* apple-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC74C193E428500BAD2E7 /* apple-logo.jpg */; };
-		C3ADC74F193E429000BAD2E7 /* tux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC74E193E429000BAD2E7 /* tux.jpg */; };
 		C3ADC751193E47E600BAD2E7 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC750193E47E600BAD2E7 /* Storyboard2.storyboard */; };
+		C3ADC758193F158F00BAD2E7 /* tux.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3ADC74E193E429000BAD2E7 /* tux.jpg */; };
+		C3ADC75A193F265D00BAD2E7 /* PersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC759193F265D00BAD2E7 /* PersonTests.m */; };
+		C3ADC75C193F34F600BAD2E7 /* BeerListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC75B193F34F600BAD2E7 /* BeerListTest.m */; };
+		C3ADC762193F365200BAD2E7 /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC761193F365200BAD2E7 /* BeerList.m */; };
+		C3ADC766193F7EED00BAD2E7 /* HotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC765193F7EED00BAD2E7 /* HotelTests.m */; };
+		C3ADC769193F7F1500BAD2E7 /* Hotel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3ADC768193F7F1500BAD2E7 /* Hotel.m */; };
 		C3F16DBE193CD007009AF8D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DBD193CD007009AF8D0 /* Foundation.framework */; };
 		C3F16DC0193CD007009AF8D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DBF193CD007009AF8D0 /* CoreGraphics.framework */; };
 		C3F16DC2193CD007009AF8D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DC1193CD007009AF8D0 /* UIKit.framework */; };
@@ -27,7 +32,6 @@
 		C3F16DD8193CD007009AF8D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DBD193CD007009AF8D0 /* Foundation.framework */; };
 		C3F16DD9193CD007009AF8D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F16DC1193CD007009AF8D0 /* UIKit.framework */; };
 		C3F16DE1193CD007009AF8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3F16DDF193CD007009AF8D0 /* InfoPlist.strings */; };
-		C3F16DE3193CD007009AF8D0 /* BeersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F16DE2193CD007009AF8D0 /* BeersTests.m */; };
 		C3F16DEE193CD212009AF8D0 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F16DED193CD212009AF8D0 /* Beer.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C33B3BDF19405C540067F5F7 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 		C3ADC732193DC3E400BAD2E7 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
 		C3ADC733193DC3E400BAD2E7 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 		C3ADC736193DE8EF00BAD2E7 /* EuroConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EuroConverter.h; sourceTree = "<group>"; };
@@ -56,6 +61,13 @@
 		C3ADC74C193E428500BAD2E7 /* apple-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-logo.jpg"; sourceTree = "<group>"; };
 		C3ADC74E193E429000BAD2E7 /* tux.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tux.jpg; sourceTree = "<group>"; };
 		C3ADC750193E47E600BAD2E7 /* Storyboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
+		C3ADC759193F265D00BAD2E7 /* PersonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTests.m; sourceTree = "<group>"; };
+		C3ADC75B193F34F600BAD2E7 /* BeerListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerListTest.m; sourceTree = "<group>"; };
+		C3ADC760193F365200BAD2E7 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
+		C3ADC761193F365200BAD2E7 /* BeerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerList.m; sourceTree = "<group>"; };
+		C3ADC765193F7EED00BAD2E7 /* HotelTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelTests.m; sourceTree = "<group>"; };
+		C3ADC767193F7F1500BAD2E7 /* Hotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hotel.h; sourceTree = "<group>"; };
+		C3ADC768193F7F1500BAD2E7 /* Hotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hotel.m; sourceTree = "<group>"; };
 		C3F16DBA193CD007009AF8D0 /* Beers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F16DBD193CD007009AF8D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3F16DBF193CD007009AF8D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,7 +83,6 @@
 		C3F16DD6193CD007009AF8D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C3F16DDE193CD007009AF8D0 /* BeersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeersTests-Info.plist"; sourceTree = "<group>"; };
 		C3F16DE0193CD007009AF8D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C3F16DE2193CD007009AF8D0 /* BeersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeersTests.m; sourceTree = "<group>"; };
 		C3F16DEC193CD212009AF8D0 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
 		C3F16DED193CD212009AF8D0 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +120,10 @@
 				C3ADC733193DC3E400BAD2E7 /* person.m */,
 				C3ADC736193DE8EF00BAD2E7 /* EuroConverter.h */,
 				C3ADC737193DE8EF00BAD2E7 /* EuroConverter.m */,
+				C3ADC760193F365200BAD2E7 /* BeerList.h */,
+				C3ADC761193F365200BAD2E7 /* BeerList.m */,
+				C3ADC767193F7F1500BAD2E7 /* Hotel.h */,
+				C3ADC768193F7F1500BAD2E7 /* Hotel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +162,7 @@
 		C3F16DB1193CD007009AF8D0 = {
 			isa = PBXGroup;
 			children = (
+				C33B3BDF19405C540067F5F7 /* Readme.md */,
 				C3F16DC3193CD007009AF8D0 /* Beers */,
 				C3F16DDC193CD007009AF8D0 /* BeersTests */,
 				C3F16DBC193CD007009AF8D0 /* Frameworks */,
@@ -203,8 +219,10 @@
 		C3F16DDC193CD007009AF8D0 /* BeersTests */ = {
 			isa = PBXGroup;
 			children = (
-				C3F16DE2193CD007009AF8D0 /* BeersTests.m */,
 				C3F16DDD193CD007009AF8D0 /* Supporting Files */,
+				C3ADC759193F265D00BAD2E7 /* PersonTests.m */,
+				C3ADC75B193F34F600BAD2E7 /* BeerListTest.m */,
+				C3ADC765193F7EED00BAD2E7 /* HotelTests.m */,
 			);
 			path = BeersTests;
 			sourceTree = "<group>";
@@ -294,10 +312,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3ADC758193F158F00BAD2E7 /* tux.jpg in Resources */,
 				C3F16DC8193CD007009AF8D0 /* InfoPlist.strings in Resources */,
 				C3ADC74D193E428500BAD2E7 /* apple-logo.jpg in Resources */,
 				C3ADC749193E2B7E00BAD2E7 /* Storyboard.storyboard in Resources */,
-				C3ADC74F193E429000BAD2E7 /* tux.jpg in Resources */,
 				C3ADC751193E47E600BAD2E7 /* Storyboard2.storyboard in Resources */,
 				C3F16DD0193CD007009AF8D0 /* Images.xcassets in Resources */,
 			);
@@ -325,6 +343,8 @@
 				C3ADC734193DC3E400BAD2E7 /* person.m in Sources */,
 				C3ADC745193E268200BAD2E7 /* AlphaViewController.m in Sources */,
 				C3ADC738193DE8EF00BAD2E7 /* EuroConverter.m in Sources */,
+				C3ADC762193F365200BAD2E7 /* BeerList.m in Sources */,
+				C3ADC769193F7F1500BAD2E7 /* Hotel.m in Sources */,
 				C3F16DCA193CD007009AF8D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F16DE3193CD007009AF8D0 /* BeersTests.m in Sources */,
+				C3ADC75A193F265D00BAD2E7 /* PersonTests.m in Sources */,
+				C3ADC75C193F34F600BAD2E7 /* BeerListTest.m in Sources */,
+				C3ADC766193F7EED00BAD2E7 /* HotelTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,21 @@
 //
-//  BeersTests.m
-//  BeersTests
+//  HotelTests.m
+//  Beers
 //
-//  Created by Antonio Chamorro on 02/06/14.
+//  Created by Antonio Chamorro on 04/06/14.
 //  Copyright (c) 2014 acm. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
+#import "Hotel.h"
+#import "Person.h"
 
-@interface BeersTests : XCTestCase
+@interface HotelTests : XCTestCase
 
 @end
 
-@implementation BeersTests
-
+@implementation HotelTests
+/*
 - (void)setUp
 {
     [super setUp];
@@ -30,5 +32,26 @@
 {
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
+*/
+
+- (void) testAddPersonToHotel {
+    
+    
+    Hotel *fontana = [[Hotel alloc] init];
+    
+    Person *p =[[Person alloc] initWithName:@"nombre" andAddress:@"direccion" andAge:28];
+    
+    
+    
+    
+    
+    
+       
+}
+
+
+
+
+
 
 @end
